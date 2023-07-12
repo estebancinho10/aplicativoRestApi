@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="/front/js/formularioPacientes.js"></script>
+  <title>Formulario Pacientes</title>
+</head>
+
+<body>
+  <section class="form-register">
+    <h4>registro pacientes</h4>
+
+    <form id="formPacientes" onsubmit="crearPaciente(event)">
+      <!-- Campos del formulario -->
+      <div>
+        <label for="nombres">Nombres:</label>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre" required>
+      </div>
+
+      <div>
+        <label for="apellido">Apellidos:</label>
+        <input class="controls" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
+      </div>
+
+
+      <div>
+        <label for="cedula">Cedula:</label>
+        <input class="controls" type="number" name="cedula" id="cedula" placeholder="ingrese su cedula" required>
+      </div>
+
+
+      <div>
+        <label for="edad">Edad:</label>
+        <input class="controls" type="number" name="edad" id="edad" placeholder="ingrese su edad" required>
+      </div>
+
+
+      <div>
+        <label for="telefono">Telefonos:</label>
+        <input class="controls" type="number" name="telefono" id="telefono" placeholder="ingrese su telefono" required>
+      </div>
+
+
+      <button id="botonEnviar" class="botons" type="submit">Enviar</button>
+    </form>
+  </section>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>

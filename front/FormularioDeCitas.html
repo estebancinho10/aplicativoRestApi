@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="/front/js/formularioCitas.js"></script>
+ <title>Formulario De Citas</title>
+</head>
+
+<body>
+  <section class="form-register">
+    <h4>Solicitar Cita</h4>
+
+  <form id="formCitas" onsubmit="crearCITA(event)">
+
+      <div>
+        <label for="cedula">Cedula:</label>
+        <input class="controls" type="number" name="cedula" id="cedula" placeholder="ingrese su cedula" 
+        required>
+      </div>
+
+        <label for="especialidad">especialidad</label>
+    <select class="options" type="text" name="especialidad" id="especialidad">
+        <option disabled selected="">seleccione una especialidad</option>
+        <option>Medicina general</option>
+        <option>Cardiologia</option>
+        <option>Medicina interna</option>
+        <option>Dermatologia</option>
+        <option>Rehabilitacion fisica</option>
+        <option>Psicologia</option>
+        <option>Odontologia</option>
+        <option>Radiologia</option>
+    </select>
+  
+    <button id="botonEnviar" class="botons" type="submit">Enviar</button>
+  </form>
+</section>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>

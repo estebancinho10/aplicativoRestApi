@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/front/js/formularioDoctores.js"></script>
+    <title>Formulario Doctores</title>
+</head>
+
+<body>
+    <section class="form-register">
+        <h4>registro doctores</h4>
+
+        <form id="formDoctores" onsubmit="crearDoctores(event)">
+
+            <div>
+                <label for="nombres">Nombres:</label>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre"
+                    required>
+            </div>
+
+
+            <div>
+                <label for="nombres">Apellidos:</label>
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese sus apellidos"
+                    required>
+            </div>
+
+                <label for="especialidad">especialidad</label>
+            <select class="options" type="text" name="especialidad" id="especialidad">
+                <option disabled selected="">seleccione una especialidad</option>
+                <option>Medicina general</option>
+                <option>Cardiologia</option>
+                <option>Medicina interna</option>
+                <option>Dermatologia</option>
+                <option>Rehabilitacion fisica</option>
+                <option>Psicologia</option>
+                <option>Odontologia</option>
+                <option>Radiologia</option>
+            </select>
+                
+
+            <div>
+                <label for="nombres">Consultorio:</label>
+                <input class="controls" type="number" name="consultorio" id="consultorio" placeholder="consultorio"
+                    required>
+            </div>
+
+
+            <div>
+                <label for="nombres">Email:</label>
+                <input class="controls" type="email" name="email" id="email" placeholder="email" required>
+            </div>
+
+
+            <button id="botonEnviar" class="botons" type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</html>
