@@ -5,16 +5,16 @@ function crearPaciente(event) {
 
   var nombres = form.get("nombres");
   var apellido = form.get("apellido");
-  var cedula = form.get("cedula");
+  var cédula = form.get("cédula");
   var edad = form.get("edad");
-  var telefono = form.get("telefono");
+  var teléfono = form.get("teléfono");
 
   var body = {
     nombre: nombres,
     apellido: apellido,
-    documento: cedula,
+    documento: cédula,
     edad: edad,
-    telefono: telefono,
+    teléfono: teléfono,
   };
  
 
