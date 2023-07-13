@@ -5,10 +5,10 @@ este proyecto se basa en un aplicativo web que por medio de formularios recibe l
 
 ## Tabla de contenido
 
-- [Características](#caracter%C3%ADsticas)
-- [Instalación](#instalaci%C3%B3n)
+- [Características](#caracteristicas)
+- [Instalación](#instalacion)
 - [Uso](#uso)
-- [Ejemplos](#ejemplos)
+- [Ejemplos Y Pruebas](#ejemplosypruebas)
 - [Contribución](#contribucion)
 
 
@@ -32,7 +32,7 @@ Esta y toda la información que desees agregar se guardara de manera automática
 para eliminar un doctor deberás de ingresar al archivo listaDeDoctores.html que se encuentra ubicado en la carpeta front al final del código encontraras una linea de código con la opción de eliminar este se eliminara introduciendo el id del doctor que se le fue asignado cuando se creo en el formulario (este ID lo asigna la base de datos sql podrás verlo ingresando al sql server e inscribiendo la instrucción SELECT * FROM doctores) y asi mismo podrás hacerlo con pacientes y citas. en el siguiente paso se hará una representación gráfica de ejemplos de como puedes realizar el CRUD de esta aplicación por medio de POSTMAN
 
 
-## Ejemplos:
+## Ejemplos y Pruebas:
 
 
 A continuación se adjuntas algunas imágenes que muestran las pruebas que se le realizaron a la API por medio de la aplicación de postman, se relaciona comentario con imagen asi:
@@ -70,6 +70,19 @@ get especialidades
 A CONTINUACIÓN LA IMAGEN QUE PRUEBA QUE TODOS LOS CRUD¨S QUEDARON EN FUNCIONAMIENTO 
 
 ![EL TOTAL DEL CRUD REALIZADO A CADA TABLA DE LA BASE DE DATOS](/postman.png)
+
+
+listado de doctores
+
+![listad de docotores guardados en la base de datos](/ListaDeDoctores.png)
+
+listado de pacientes
+
+![listado de pacientes guardados en la base de datos](/ListaDePcientes.png)
+
+istado de citas
+
+![listado de citas guardadas en la base de datos](/listadoDeCitas.png)
 
 
 ## Contribución:
