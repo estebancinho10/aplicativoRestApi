@@ -43,8 +43,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function eliminarDoctor(doctor_id) {
-var confirmacion = confirm(
-    "¿Estás seguro de que deseas eliminar el registro con el id " + doctor_id + "?"
+  var confirmacion = confirm(
+    "¿Estás seguro de que deseas eliminar el registro con el id " +
+      doctor_id +
+      "?"
   );
 
   if (confirmacion) {
@@ -59,7 +61,6 @@ var confirmacion = confirm(
         alert(respuesta.message);
       });
   } else {
-    // El usuario seleccionó "Cancelar"
     alert("Cancelado");
   }
 }

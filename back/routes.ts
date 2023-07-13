@@ -36,14 +36,5 @@ app.post('/citas', (req, res) => {
     const numeroDocumento = req.body.numeroDocumento;
     const especialidad = req.body.especialidad;
   
-    // Aquí puedes realizar las consultas necesarias para encontrar el doctor y paciente correspondiente
-    // ...
-    // ...
-  
-    // Aquí puedes realizar la lógica para crear la cita médica utilizando los datos encontrados
-    // ...
-    // ...
-  
-    // Por último, envía una respuesta al cliente indicando que la cita se ha creado correctamente
     res.json({ message: 'La cita se ha creado correctamente' });
   });

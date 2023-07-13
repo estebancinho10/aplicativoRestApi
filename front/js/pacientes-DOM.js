@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Realizar una solicitud GET utilizando la función fetch
+
   fetch("http://localhost:3000/app/pacientes", {
     method: "GET",
   })
-    .then((response) => response.json()) // Convertir la respuesta a JSON
+    .then((response) => response.json()) 
     .then((data) => {
       var tabla = document.getElementById("miTabla");
       var tbody = tabla.querySelector("tbody");
-      // Iterar sobre los datos recibidos y construir las filas de la tabla
+
       data.forEach(function (item) {
         var fila = document.createElement("tr");
         var celda1 = document.createElement("td");

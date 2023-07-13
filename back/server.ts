@@ -23,11 +23,8 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors()),
 
-// Use Control Routes
 app.use('/app', controlRoutes);
 
-
-// Iniciar el servidor
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
