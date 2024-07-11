@@ -8,6 +8,8 @@ const connection = mariadb.createConnection({
   user: 'root',
   password: 'trabajo backend',
   database: 'trabajo_final',
+  ssl: false,
+  //allowPublicKeyRetrieval: true
 
 });
 
