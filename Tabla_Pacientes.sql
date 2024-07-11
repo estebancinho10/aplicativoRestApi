@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS Trabajo_Final;
-CREATE DATABASE Trabajo_Final CHARACTER SET utf8mb4;
-use Trabajo_Final;
+CREATE DATABASE Trabajo_Final CHARACTER SET utf8mb4,
+USE Trabajo_Final;
 
 CREATE TABLE pacientes (
 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -10,6 +10,7 @@ documento 		INT 			NOT NULL,
 edad 			INT				NOT NULL,
 telefono 		VARCHAR(100)	NOT NULL
 );
+
 
 
 
