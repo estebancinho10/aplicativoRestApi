@@ -9,7 +9,7 @@ const connection = mariadb.createConnection({
   password: 'trabajo backend',
   database: 'trabajo_final',
   ssl: false,
-  //allowPublicKeyRetrieval: true
+  allowPublicKeyRetrieval: true
 
 });
 
